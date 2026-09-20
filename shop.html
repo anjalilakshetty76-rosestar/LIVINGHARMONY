@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop - LivingHarmony</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="logo">LivingHarmony</a>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="shop">
+
+        <div class="shop-heading">
+            <h1>SHOP YOUR STYLE</h1>
+            <p>Find beautiful pieces to make your home feel like you</p>
+        </div>
+        <div class="shop-nav">
+            <a href="#sofas">SOFAS</a>
+            <a href="#lighting">LIGHTING</a>
+            <a href="#tables">TABLES</a>
+            <a href="#decor">HOME DECOR</a>
+        </div>
+
+
+        <!-- SOFAS -->
+
+        <section class="shop-category" id="sofas">
+
+            <h2>✦ SOFAS ✦</h2>
+            <p class="category-subtitle">Comfort meets style</p>
+
+            <div class="products">
+
+                <div class="product-card">
+                    <img src="images/sofa1.jpg" alt="Modern Sofa">
+                    <h3>Modern Sofa</h3>
+                    <p>₹18,999</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/sofa2.jpg" alt="Classic Sofa">
+                    <h3>Classic Sofa</h3>
+                    <p>₹21,999</p>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LIGHTING -->
+
+        <section class="shop-category" id="lighting">
+
+            <h2>✦ LIGHTING ✦</h2>
+            <p class="category-subtitle">Light up your space</p>
+
+            <div class="products">
+
+                <div class="product-card">
+                    <img src="images/lamp1.jpg" alt="Decorative Lamp">
+                    <h3>Decorative Lamp</h3>
+                    <p>₹2,499</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/lamp2.jpg" alt="Modern Floor Lamp">
+                    <h3>Modern Floor Lamp</h3>
+                    <p>₹3,299</p>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- TABLES -->
+
+        <section class="shop-category" id="tables">
+
+            <h2>✦ TABLES ✦</h2>
+            <p class="category-subtitle">Gather in harmony</p>
+
+            <div class="products">
+
+                <div class="product-card">
+                    <img src="images/table1.jpg" alt="Wooden Coffee Table">
+                    <h3>Wooden Coffee Table</h3>
+                    <p>₹7,999</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/table2.jpg" alt="Side Table">
+                    <h3>Elegant Side Table</h3>
+                    <p>₹5,499</p>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOME DECOR -->
+
+        <section class="shop-category" id="decor">
+
+            <h2>✦ HOME DECOR ✦</h2>
+            <p class="category-subtitle">The details matter</p>
+
+            <div class="products">
+
+                <div class="product-card">
+                    <img src="images/decor1.jpg" alt="Decorative Vase">
+                    <h3>Ceramic Vase</h3>
+                    <p>₹1,299</p>
+                    <button>Add to Cart</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="images/decor2.jpg" alt="Decorative Mirror">
+                    <h3>Wall Mirror</h3>
+                    <p>₹5,999</p>
+                    <button>Add to Cart</button>
+                </div>
+
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- Product Popup -->
+    <div id="productPopup" class="product-popup">
+        <span class="product-close">&times;</span>
+
+        <div class="product-popup-content">
+            <img id="popupProductImage" src="" alt="Product">
+
+            <div>
+                <h2 id="popupProductName"></h2>
+                <p id="popupProductPrice"></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <div id="cartMessage" class="cart-message"></div>
+
+</body>
+
+</html>
